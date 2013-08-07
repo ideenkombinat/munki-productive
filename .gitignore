@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled source #
 ###################
 *.com
@@ -36,3 +37,10 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+=======
+# .DS_Store files!
+.DS_Store
+
+# don't track .pyc files
+*.pyc
+>>>>>>> Every repo needs a .gitignore.
