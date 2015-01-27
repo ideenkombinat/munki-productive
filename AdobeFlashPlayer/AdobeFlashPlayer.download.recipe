@@ -26,6 +26,10 @@
         </dict>
         <dict>
             <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
             <string>AdobeFlashDownloadDecoder</string>
             <key>Arguments</key>
             <dict>
@@ -33,6 +37,7 @@
                 <string>%pathname%</string>
             </dict>
         </dict>
+<<<<<<< HEAD
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
@@ -52,6 +57,8 @@
                 </array>
             </dict>
         </dict>
+=======
+>>>>>>> EndOfCheckPhase only needs to directly follow URLDownloader
     </array>
 </dict>
 </plist>
