@@ -17,17 +17,22 @@
     <array>
         <dict>
             <key>Processor</key>
+            <string>AdobeFlashURLProvider</string>
+        </dict>
+        <dict>
+            <key>Processor</key>
             <string>URLDownloader</string>
             <key>Arguments</key>
             <dict>
-                <key>url</key>
-                <string>https://fpdownload.macromedia.com/pub/flashplayer/update/current/sau/11/install/install_all_mac_pl_sgn.z</string>
+                <key>filename</key>
+                <string>%NAME%.dmg</string>
             </dict>
         </dict>
         <dict>
             <key>Processor</key>
             <string>EndOfCheckPhase</string>
         </dict>
+<<<<<<< HEAD
         <dict>
             <key>Processor</key>
             <string>AdobeFlashDownloadDecoder</string>
@@ -59,6 +64,8 @@
         </dict>
 =======
 >>>>>>> EndOfCheckPhase only needs to directly follow URLDownloader
+=======
+>>>>>>> Reverting behavior of FlashPlayer download recipe
     </array>
 </dict>
 </plist>
